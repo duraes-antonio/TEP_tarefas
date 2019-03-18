@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/11679__sub_prime.dir/main.cpp.o  -o 11679__sub_prime 

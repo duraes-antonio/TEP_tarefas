@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/10324_zeros_and_ones.dir/main.cpp.o  -o 10324_zeros_and_ones 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/661_blowing_fuses.dir/main.cpp.o CMakeFiles/661_blowing_fuses.dir/main2.c.o  -o 661_blowing_fuses 

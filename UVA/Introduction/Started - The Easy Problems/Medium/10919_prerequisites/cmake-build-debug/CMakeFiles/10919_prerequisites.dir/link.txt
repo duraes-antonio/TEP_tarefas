@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/10919_prerequisites.dir/main.cpp.o  -o 10919_prerequisites 

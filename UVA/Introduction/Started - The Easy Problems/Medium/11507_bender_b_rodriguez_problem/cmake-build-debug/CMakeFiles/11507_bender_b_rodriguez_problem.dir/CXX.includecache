@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/11507_bender_b_rodriguez_problem/main.cpp
+iostream
+-
+string
+-
+

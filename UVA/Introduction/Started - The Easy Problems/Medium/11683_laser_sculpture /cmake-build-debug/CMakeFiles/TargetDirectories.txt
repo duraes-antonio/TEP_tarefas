@@ -1,0 +1,3 @@
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/11683_laser_sculpture /cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/11683_laser_sculpture /cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/11683_laser_sculpture /cmake-build-debug/CMakeFiles/11683_laser_sculpture_.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/11661_burger_time.dir/main.cpp.o  -o 11661_burger_time 

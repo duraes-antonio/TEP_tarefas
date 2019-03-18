@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/10141_resquest_for_proposal.dir/main.cpp.o  -o 10141_resquest_for_proposal 

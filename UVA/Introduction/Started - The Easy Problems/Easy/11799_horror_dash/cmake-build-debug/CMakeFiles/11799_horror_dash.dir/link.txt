@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/11799_horror_dash.dir/main.cpp.o  -o 11799_horror_dash 

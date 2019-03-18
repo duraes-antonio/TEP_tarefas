@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Easy/11332_summing_digits/11332_summing_digits.cpp
+iostream
+-
+string
+-
+cstring
+-
+

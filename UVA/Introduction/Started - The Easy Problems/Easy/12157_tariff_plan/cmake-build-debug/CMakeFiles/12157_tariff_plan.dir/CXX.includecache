@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Easy/12157_tariff_plan/main.cpp
+iostream
+-
+

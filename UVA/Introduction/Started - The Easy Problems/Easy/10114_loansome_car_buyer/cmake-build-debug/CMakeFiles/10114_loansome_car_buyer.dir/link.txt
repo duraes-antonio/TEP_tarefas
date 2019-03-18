@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/10114_loansome_car_buyer.dir/10114_loansome_car_buyer.cpp.o  -o 10114_loansome_car_buyer 

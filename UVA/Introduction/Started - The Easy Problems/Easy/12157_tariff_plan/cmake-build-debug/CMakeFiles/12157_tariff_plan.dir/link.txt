@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/12157_tariff_plan.dir/main.cpp.o  -o 12157_tariff_plan 

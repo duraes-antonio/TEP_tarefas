@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/10963_the_swallowing_ground.dir/10963_the_swallowing_ground.cpp.o  -o 10963_the_swallowing_ground 

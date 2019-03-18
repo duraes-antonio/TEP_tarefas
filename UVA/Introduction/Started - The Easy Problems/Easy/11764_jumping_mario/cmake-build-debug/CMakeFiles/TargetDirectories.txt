@@ -1,0 +1,3 @@
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Easy/11764_jumping_mario/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Easy/11764_jumping_mario/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Easy/11764_jumping_mario/cmake-build-debug/CMakeFiles/11764_jumping_mario.dir

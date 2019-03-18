@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/10141_resquest_for_proposal/main.cpp
+iostream
+-
+vector
+-
+map
+-
+

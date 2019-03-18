@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/573_the_snail.dir/main.cpp.o  -o 573_the_snail 

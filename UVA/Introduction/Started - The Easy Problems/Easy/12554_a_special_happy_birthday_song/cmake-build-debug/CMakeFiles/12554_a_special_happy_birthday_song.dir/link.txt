@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/12554_a_special_happy_birthday_song.dir/main.cpp.o  -o 12554_a_special_happy_birthday_song 

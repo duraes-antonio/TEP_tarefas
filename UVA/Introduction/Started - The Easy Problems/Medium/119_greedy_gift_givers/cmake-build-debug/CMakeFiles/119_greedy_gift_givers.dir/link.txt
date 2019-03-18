@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/119_greedy_gift_givers.dir/main.cpp.o  -o 119_greedy_gift_givers 
