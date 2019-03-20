@@ -1,46 +1,28 @@
 #include <iostream>
-#include <cmath>
+#include <map>
 
 using namespace std;
 
-bool num_primo(int num) {
-
-    bool primo = true;
-    int result = 2;
-
-    if(num == 2 || num == 3 || num == 5) return true;
-
-    if (num % 2 == 0) return false;
-
-    double raiz = sqrt(num);
-
-    while(primo && result < raiz) {
-        if (num % result == 0) primo = false;
-        result++;
-    }
-
-    return primo;
-}
-
 int main() {
 
-    int valor, min_den;
+    int k, yk;
+    map<int, int> map_x_y;
 
-    while (cin >> valor && valor > 0) {
+    while (cin >> k && k > 0) {
 
-        min_den = valor + 1;
+        for(int i = k+1; i <= k+k; i++) {
+            yk = i * k;
 
-        while(min_den <= valor*2) {
-
-            if ((min_den * valor) % (min_den - valor) == 0) {
-                printf("1/%d + 1/%d\n", (min_den * valor) / (min_den - valor), min_den);
-            }
-
-            min_den++;
+            if (yk % (i-k) == 0) map_x_y[i] = yk / (i-k);
         }
 
-        cout << endl;
-        valor = 0;
+        if (!map_x_y.empty()) cout << map_x_y.size() << endl;
+
+        for(auto &x_y: map_x_y) {
+            printf("1/%d = 1/%d + 1/%d\n", k, x_y.second, x_y.first);
+        }
+
+        map_x_y.clear();
     }
 
     return 0;

@@ -1,4 +1,4 @@
-/media/x/dados/jetbrains/Clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/x/Área de Trabalho/TeP/UVA/complete_search/iterative_one_loop/10976"
+/media/x/dados/jetbrains/Clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/x/Área de Trabalho/TeP/TEP_tarefas/UVA/complete_search/iterative_one_loop/10976"
 -- The C compiler identification is GNU 7.3.0
 -- The CXX compiler identification is GNU 7.3.0
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/x/Área de Trabalho/TeP/UVA/complete_search/iterative_one_loop/10976/cmake-build-debug
+-- Build files have been written to: /home/x/Área de Trabalho/TeP/TEP_tarefas/UVA/complete_search/iterative_one_loop/10976/cmake-build-debug

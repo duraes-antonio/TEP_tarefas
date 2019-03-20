@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/x/Área de Trabalho/TeP/UVA/complete_search/iterative_one_loop/10976/main.cpp
+/home/x/Área de Trabalho/TeP/TEP_tarefas/UVA/complete_search/iterative_one_loop/10976/main.cpp
 iostream
 -
-cmath
+map
 -
 
