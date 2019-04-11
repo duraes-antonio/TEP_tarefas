@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/12455_bars.dir/main.cpp.o  -o 12455_bars 

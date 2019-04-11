@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/735_dart_a_mania.dir/main.cpp.o  -o 735_dart_a_mania 

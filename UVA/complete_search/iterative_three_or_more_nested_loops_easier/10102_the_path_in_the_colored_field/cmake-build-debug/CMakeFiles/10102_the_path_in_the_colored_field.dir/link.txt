@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/10102_the_path_in_the_colored_field.dir/main.cpp.o  -o 10102_the_path_in_the_colored_field 

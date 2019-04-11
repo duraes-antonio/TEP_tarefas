@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/x/Área de Trabalho/TeP/TEP_tarefas/UVA/complete_search/iterative_three_or_more_nested_loops_easier/735_dart_a_mania/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+
