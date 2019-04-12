@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/10487_closest_sums.dir/main.cpp.o  -o 10487_closest_sums 

@@ -1,3 +1,0 @@
-/home/x/Área de Trabalho/TeP/TEP_tarefas/UVA/complete_search/iterative_three_or_more_nested_loops_harder/11565_simple_equations/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/x/Área de Trabalho/TeP/TEP_tarefas/UVA/complete_search/iterative_three_or_more_nested_loops_harder/11565_simple_equations/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/x/Área de Trabalho/TeP/TEP_tarefas/UVA/complete_search/iterative_three_or_more_nested_loops_harder/11565_simple_equations/cmake-build-debug/CMakeFiles/11565_simple_equations.dir
