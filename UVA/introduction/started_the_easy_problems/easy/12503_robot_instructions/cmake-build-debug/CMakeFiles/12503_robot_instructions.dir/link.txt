@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/12503_robot_instructions.dir/main.cpp.o  -o 12503_robot_instructions 

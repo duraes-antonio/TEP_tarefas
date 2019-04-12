@@ -1,3 +1,0 @@
-/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/11956_brainfuck/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/11956_brainfuck/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/11956_brainfuck/cmake-build-debug/CMakeFiles/11956_brainfuck.dir

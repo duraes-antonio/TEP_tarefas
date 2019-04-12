@@ -1,4 +1,0 @@
-/media/x/dados/jetbrains/Clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/661_blowing_fuses"
--- Configuring done
--- Generating done
--- Build files have been written to: /home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/661_blowing_fuses/cmake-build-debug

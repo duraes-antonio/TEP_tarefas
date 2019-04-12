@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/12015_google_is_feeling_lucky.dir/main.cpp.o  -o 12015_google_is_feeling_lucky 

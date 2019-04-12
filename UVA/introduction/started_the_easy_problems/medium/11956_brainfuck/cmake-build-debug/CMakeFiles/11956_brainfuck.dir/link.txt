@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/11956_brainfuck.dir/main.cpp.o  -o 11956_brainfuck 

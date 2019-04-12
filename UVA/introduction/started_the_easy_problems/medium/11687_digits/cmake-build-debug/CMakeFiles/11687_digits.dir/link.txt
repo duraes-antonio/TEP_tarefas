@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/11687_digits.dir/main.cpp.o  -o 11687_digits 

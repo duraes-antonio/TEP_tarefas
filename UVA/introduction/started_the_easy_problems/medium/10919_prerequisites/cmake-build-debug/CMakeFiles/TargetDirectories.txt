@@ -1,3 +1,0 @@
-/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/10919_prerequisites/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/10919_prerequisites/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Medium/10919_prerequisites/cmake-build-debug/CMakeFiles/10919_prerequisites.dir

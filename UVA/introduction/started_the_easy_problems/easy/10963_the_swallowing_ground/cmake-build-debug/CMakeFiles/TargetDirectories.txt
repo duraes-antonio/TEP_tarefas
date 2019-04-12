@@ -1,3 +1,0 @@
-/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Easy/10963_the_swallowing_ground/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Easy/10963_the_swallowing_ground/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/x/Área de Trabalho/TeP/UVA/Introduction/Started - The Easy Problems/Easy/10963_the_swallowing_ground/cmake-build-debug/CMakeFiles/10963_the_swallowing_ground.dir
