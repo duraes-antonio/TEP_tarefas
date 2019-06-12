@@ -10,62 +10,63 @@ using namespace std;
 struct Elefante {
     int peso;
     int qi;
+
+    /*Ordem em que os dados deste elefante foi lido*/
     int ordem;
+
+    /*Quantidade de elefantes que podem ser associados a este*/
+    int qtd = 1;
+
+    /*Índice do próximo elefante ligado ao atual*/
+    int prox = -1;
 };
 
-map<int, Elefante> g_qi_elef;
-vector<int> g_ordenacao_por_qi;
-int g_indice = 0;
 
 /*Compara dois elefantes com base em seu QI*/
 bool comparar(Elefante elefante_1, Elefante elefante_2) {
     return elefante_1.qi > elefante_2.qi;
 }
 
-void lis(const vector<Elefante> elefantes) {
 
-    int peso_elef_ant = 0;
-    int tam_vetor = elefantes.size();
-    Elefante elef_inic;
-
-    while(g_indice < tam_vetor) {
-
-        /*Enquanto o peso do i-ésimo elefante não for superior ao do anterior*/
-        while(elefantes[g_indice].peso <= peso_elef_ant && g_indice < tam_vetor) ++g_indice;
-
-        if(g_indice == tam_vetor) break;
-
-        elef_inic = elefantes[g_indice];
-
-        /*Enquanto o QI do i-ésimo elefante for igual do elefante atual*/
-        while(elefantes[g_indice].qi == elef_inic.qi) {
-
-            /*Verifique se o peso do i-ésimo é inferior ao do atual
-             * E superior ao do elefante anterior (de QI superior)*/
-            if(elefantes[g_indice].peso < elef_inic.peso && elefantes[g_indice].peso > peso_elef_ant) {
-                elef_inic = elefantes[g_indice];
-            }
-
-            ++g_indice;
-        }
-
-        if(elef_inic.peso > peso_elef_ant) {
-            g_qi_elef.insert(make_pair(elef_inic.qi, elef_inic));
-            g_ordenacao_por_qi.push_back(elef_inic.qi);
-        }
-
-        peso_elef_ant = elef_inic.peso;
-    }
+bool maior(Elefante* elefante_1, Elefante* elefante_2) {
+    return elefante_1->peso > elefante_2->peso && elefante_1->qi < elefante_2->qi;
 }
+
+
+Elefante lis(vector<Elefante> &elefantes) {
+
+    Elefante elef_maior_lis = elefantes[0];
+    Elefante* elef_anterior;
+    Elefante* elef_atual;
+    int tam = elefantes.size();
+
+    for(int i = tam - 1; i >= 0; i--) {
+        elef_anterior = &(elefantes[i]);
+        
+        for (int j = i + 1; j < tam; j++) {
+            elef_atual = &(elefantes[j]);
+            
+            if(maior(elef_atual, elef_anterior) && elef_atual->qtd >= elef_anterior->qtd) {
+                elef_anterior->qtd = 1 + elef_atual->qtd;
+                elef_anterior->prox = j;
+            }
+        }
+
+        if (elef_anterior->qtd > elef_maior_lis.qtd) elef_maior_lis = *elef_anterior;
+    }
+
+    return elef_maior_lis;
+}
+
 
 int main() {
 
     vector<Elefante> elefantes;
-    vector<int> subseq;
-    int ordem;
     Elefante temp_elef = Elefante();
+    int ordem = 0;
 
-    ordem = 0;
+    /*Pré-aloque o máximo de Elefantes descrito no problema*/
+    elefantes.reserve(1000);
 
     /*Enquanto houver dados a serem lidos*/
     while (scanf("%d %d", &temp_elef.peso, &temp_elef.qi) == 2) {
@@ -74,11 +75,16 @@ int main() {
     }
 
     sort(elefantes.begin(), elefantes.end(), comparar);
-    lis(elefantes);
+    Elefante elef_maior_lis = lis(elefantes);
 
     /*Imprima a quantidade de elefantes encontradas e a ordem da cada elefante*/
-    cout << g_qi_elef.size() << endl;
-    for (int qi: g_ordenacao_por_qi) cout << g_qi_elef[qi].ordem << endl;
+    cout << elef_maior_lis.qtd << endl;
+
+    /*Para cada elefante incluído na subsequência, imprima a ordem em que foi lido*/
+    for(int i = elef_maior_lis.qtd; i; --i) {
+        cout << elef_maior_lis.ordem << endl;
+        elef_maior_lis = elefantes[elef_maior_lis.prox];
+    }
 
     return 0;
 }
